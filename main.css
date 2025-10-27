@@ -3,10 +3,13 @@ main {
   width: 100%;
   height: 100%;
 }
+.caixa-menssagem{
+  background-color: aqua;
+}
 
 .messagens {
   height: 93%;
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 100%;
 }
 
