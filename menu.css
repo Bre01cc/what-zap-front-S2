@@ -1,0 +1,69 @@
+
+.menu {
+  background-color: aquamarine;
+  width: 30%;
+  height: 100%;
+  padding-left: 30px;
+}
+header {
+  height: 15%;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  /* background-color: blue; */
+}
+.icon-zap {
+  height: 60px;
+  padding-block: 0px;
+  width: 100%;
+  /* background-color: blueviolet; */
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.icon-zap img {
+  width: 6%;
+}
+.name {
+  width: 20%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #797676;
+  background-color: #ffff;
+}
+.user {
+  display: flex;
+  padding-inline: 1vw;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+.chats {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  gap: 20px;
+  flex-direction: row;
+}
+.box-chats {
+  height: 50px;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  background-color:white;
+}
+.box-chats:hover {
+  box-shadow: 0 0 5px #000000;
+}
+.user .icon-w {
+  font-size: 3.5rem;
+}
