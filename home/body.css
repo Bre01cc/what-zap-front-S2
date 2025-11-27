@@ -8,5 +8,5 @@ body {
   width: 100vw;
   font-family: "Inter", sans-serif;
   display: flex;
-  overflow: hidden;
+  overflow-x: hidden;
 }

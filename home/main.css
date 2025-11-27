@@ -309,3 +309,31 @@ main {
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media (max-width: 1600px) {
+  .icons-contato {
+    gap: 20px;
+    margin-right: 20px;
+  }
+  .mensagem-usuario{
+    width: 45%;
+  }
+  .mensagem-usuario p {
+    font-size: 1.25rem;
+    
+  }
+  .mensagem-contato{
+    width: 45%;
+  }
+  .mensagem-contato p {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 1300px) {
+  /* .mensagem-usuario p {
+    font-size: 1.2rem;
+  }
+  .mensagem-contato p {
+    font-size: 1rem;
+  } */
+}

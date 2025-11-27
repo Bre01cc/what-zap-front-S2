@@ -8,7 +8,6 @@
   gap: 1vh;
   padding-bottom: 20px;
   border-right: 2px solid rgba(0, 0, 0, 0.2);
-  ;
 }
 
 header {
@@ -86,7 +85,7 @@ header {
   transition: 1s all;
 }
 
-.user .icon-w:hover{
+.user .icon-w:hover {
   cursor: pointer;
   color: rgb(49, 179, 49);
 }
@@ -116,7 +115,6 @@ header {
   position: relative;
   height: 100%;
   width: 100%;
-
 }
 
 .input-box i {
@@ -126,8 +124,8 @@ header {
   transform: translateY(-50%);
 }
 
-.input-box .icon{
-font-size: 1.3rem;
+.input-box .icon {
+  font-size: 1.3rem;
 }
 
 .input-box input {
@@ -151,7 +149,7 @@ font-size: 1.3rem;
   padding-block: 10px;
   display: flex;
 }
-.card p{
+.card p {
   font-size: 1.2rem;
 }
 
@@ -202,4 +200,59 @@ font-size: 1.3rem;
   padding-inline: 5px;
   align-items: end;
   width: 100%;
+}
+
+@media (max-width: 1800px) {
+  .menu {
+    padding-bottom: 10px;
+    padding-inline: 5px;
+    width: 50%;
+  }
+  .pesquisa {
+    margin-left: 15px;
+    padding-right: 5px;
+    width: 90%;
+  }
+  .card .info-contato {
+    gap: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  .menu {
+    width: 55%;
+  }
+  .mensagem {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .card .info-contato {
+    gap: 10px;
+  }
+  .name {
+    font-size: 0.8rem;
+  }
+  .box-chats {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .card {
+    height: 130px;
+  }
+  .img-perfil img {
+    width: 85px;
+    height: 85px;
+  }
+  .status {
+    height: auto;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .name {
+    font-size: 0.6rem;
+  }
 }
