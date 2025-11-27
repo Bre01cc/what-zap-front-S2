@@ -315,25 +315,32 @@ main {
     gap: 20px;
     margin-right: 20px;
   }
-  .mensagem-usuario{
+  .mensagem-usuario {
     width: 45%;
   }
   .mensagem-usuario p {
     font-size: 1.25rem;
-    
   }
-  .mensagem-contato{
+  .mensagem-contato {
     width: 45%;
   }
   .mensagem-contato p {
     font-size: 1.25rem;
   }
+
 }
-@media (max-width: 1300px) {
-  /* .mensagem-usuario p {
-    font-size: 1.2rem;
+@media (max-width: 1450px) {
+   .card-info-contato {
+    height: auto;
+    padding-block: 20px;
+    width: 500px;
   }
-  .mensagem-contato p {
-    font-size: 1rem;
-  } */
+  .card-info-contato img {
+    width: 200px;
+    height: 200px;
+  }
+  .card-info-contato button{
+    margin-top: 10px;
+    height: 60px;
+  }
 }
