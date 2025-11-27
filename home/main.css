@@ -1,0 +1,311 @@
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.info-profile-contato {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.info-contato {
+  flex-grow: 1;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.nome,
+.descricao,
+.telefone {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+.nome span,
+.descricao span,
+.telefone span {
+  font-size: 1.5rem;
+  margin-left: 5px;
+}
+.nome p,
+.descricao p,
+.telefone p {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+.container-info {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card-info-contato {
+  background-color: rgb(213, 225, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  padding-block: 20px;
+  width: 600px;
+  border-radius: 10px;
+}
+.card-info-contato button {
+  width: 250px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  height: 80px;
+}
+.card-info-contato button:hover {
+  background-color: #e9e4e4;
+}
+.img-contato {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.card-info-contato img {
+  width: 250px;
+  height: 250px;
+  border-radius: 80%;
+  object-fit: cover;
+}
+
+.activate {
+  display: flex;
+}
+
+.disable {
+  display: none;
+}
+.mensagem {
+  position: absolute;
+  background-color: rgb(96, 186, 17);
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.mensagem p {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.messagens {
+  height: 89%;
+  /* display: none; */
+  align-items: end;
+  justify-content: center;
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.box-text {
+  height: 6%;
+  width: 100%;
+  /* display: none; */
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 1.5rem;
+  padding-inline: 20px;
+}
+
+.caixa-menssagem {
+  width: 90%;
+  height: 80%;
+  /* background-color: aqua; */
+}
+
+.icon-b {
+  font-size: 1.3rem;
+  color: rgb(81, 81, 81);
+}
+
+.contato {
+  /* display: none; */
+  height: 95px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.card-contato {
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  display: flex;
+}
+.card-contato img {
+  border-radius: 80%;
+  width: 75px;
+  object-fit: cover;
+  height: 75px;
+}
+
+.card-contato img:hover {
+  cursor: pointer;
+}
+
+.info-contato-p {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.info-contato-p .name-perfil {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.info-contato-p .name-perfil:hover {
+  cursor: pointer;
+}
+.info-contato-p .name-perfil span {
+  font-size: 1.8rem;
+}
+
+.icons-contato {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.icon-pc {
+  font-size: 1.6rem;
+}
+
+.caixa-contato {
+  width: 100%;
+  background-image: url(../img/what-zap-bg.jpg);
+  height: 100%;
+  overflow-y: scroll;
+  /* background-color: aqua; */
+}
+
+.container-user {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  /* background-color: rgb(10, 92, 10); */
+  height: auto;
+}
+
+.mensagem-filtro {
+  animation: destacar-mensagem 5s ease;
+}
+
+@keyframes destacar-mensagem {
+  5% {
+    background-color: #2847e080;
+  }
+  100% {
+    background-color: none;
+  }
+}
+
+.mensagem-usuario {
+  height: auto;
+  background-color: rgb(96, 186, 17);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.container-contato {
+  display: flex;
+  padding: 10px;
+  justify-content: end;
+
+  /* background-color: aqua; */
+  width: 100%;
+  align-items: center;
+  height: auto;
+}
+
+.mensagem-contato {
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.mensagem-usuario p {
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+
+.mensagem-contato p {
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+
+.horario {
+  display: flex;
+  justify-content: end;
+}
+
+.box-mensagem {
+  justify-content: center;
+  width: 100%;
+  height: 65px;
+  bottom: 85%;
+  position: absolute;
+}
+
+.input-pesquisa {
+  padding-left: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  position: relative;
+  height: 100%;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+}
+
+.input-pesquisa input {
+  background-color: transparent;
+  height: 100%;
+  all: unset;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+.input-pesquisa i {
+  position: absolute;
+  margin-left: 93%;
+  top: 50%;
+  transform: translateY(-50%);
+}
