@@ -1,18 +1,17 @@
-﻿# what-zap-front-S2
-
+# what-zap-front-S2
 ## Sobre
 
-Desenvolver uma aplicação semelhate ao what zap, cuja o objetivo é colocar os conhecimentos adquiridos na disciplina de front-end em prática.
+O projeto consiste em desenvolver uma aplicação semelhante ao WhatsApp, cujo objetivo é colocar em prática os conhecimentos adquiridos na disciplina de Front-End.
 
 ## Descrição
 
-Projeto cuja o objetivo é contruir o front-end semelhante ao what-zap carengando os usuarios, contatos e mensages vindas do back-end.
+Este projeto tem como propósito construir o front-end de um aplicativo similar ao WhatsApp, carregando usuários, contatos e mensagens fornecidas pelo back-end.
 
-## Tecnologias
-- JavaScript
-- HTML
-- CSS
+## Tecnologias utilizadas
 
+- **JavaScript**
+- **HTML**
+- **CSS**
 ## Imagem
 
 - Login:
@@ -30,4 +29,5 @@ Projeto cuja o objetivo é contruir o front-end semelhante ao what-zap carengand
 ## Autor
 
 **[Breno Oliveira Assis Reis](https://www.linkedin.com/in/breno-oliveira-assis-reis-203010351/)**.
+
 
