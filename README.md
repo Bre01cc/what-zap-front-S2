@@ -7,6 +7,9 @@ O projeto consiste em desenvolver uma aplicação semelhante ao WhatsApp, cujo o
 
 Este projeto tem como propósito construir o front-end de um aplicativo similar ao WhatsApp, carregando usuários, contatos e mensagens fornecidas pelo back-end.
 
+## Ressalva
+O site não está muito responsivo e apresenta quebras devido aos tamanhos definidos para os elementos da tela.
+
 ## Tecnologias utilizadas
 
 - **JavaScript**
@@ -29,5 +32,6 @@ Este projeto tem como propósito construir o front-end de um aplicativo similar 
 ## Autor
 
 **[Breno Oliveira Assis Reis](https://www.linkedin.com/in/breno-oliveira-assis-reis-203010351/)**.
+
 
 
