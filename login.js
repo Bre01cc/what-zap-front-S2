@@ -22,7 +22,7 @@ const criarUsers = (user) => {
 
     usuario.append(img,name)
     usuario.addEventListener('click',()=>{
-        window.location.href = './home/index.html'
+        window.location.href = './home/usuario.html'
         sessionStorage.setItem('NumberUsuario',JSON.stringify(user))
     })
     containerUsers.append(usuario)

@@ -1,6 +1,6 @@
 'use strict'
 const usuariosPrincipais = () => {
-    window.location.href = "../login.html"
+    window.location.href = "../index.html"
 }
 
 const usuario = () => JSON.parse(sessionStorage.getItem('NumberUsuario'))
