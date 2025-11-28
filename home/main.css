@@ -327,10 +327,10 @@ main {
   .mensagem-contato p {
     font-size: 1.25rem;
   }
-
-}
-@media (max-width: 1450px) {
-   .card-info-contato {
+  .box-mensagem{
+    top: 15%;
+  }
+    .card-info-contato {
     height: auto;
     padding-block: 20px;
     width: 500px;
@@ -343,4 +343,6 @@ main {
     margin-top: 10px;
     height: 60px;
   }
+
 }
+
